@@ -236,6 +236,12 @@ deletefiles /Library/Internet\ Plug-Ins/SharePoint
 delete ~/Library/Cookies/com.microsoft.onedrive.binarycookies
 delete ~/Library/Cookies/com.microsoft.onedriveupdater.binarycookies
 
+#15 Delete the launch daemons
+delete /Library/LaunchDaemonscom.microsoft.OneDriveStandaloneUpdaterDaemon.plist
+delete /Library/LaunchAgents/com.microsoft.OneDriveStandaloneUpdater.plist
+delete /Library/LaunchAgents/com.microsoft.SyncReporter.plist
+
+
 echo '\nDone\n'
 echo '****************************************************'
 echo '*                   Congratulations!               *'
